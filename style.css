@@ -12,6 +12,27 @@ header {
     text-align: center;
 }
 
-#news-section {
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+#news-section, #chart-section {
     margin: 2rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

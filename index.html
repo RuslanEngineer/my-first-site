@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Crypto News</title>
+    <title>Crypto News & Charts</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
-        <h1>Latest Crypto News</h1>
+        <h1>Latest Crypto News & Market Trends</h1>
     </header>
+
     <section id="news-section">
+        <h2>News</h2>
         <p>Loading latest news...</p>
     </section>
+
+    <section id="chart-section">
+        <h2>Crypto Price Trends</h2>
+        <canvas id="cryptoChart"></canvas>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
